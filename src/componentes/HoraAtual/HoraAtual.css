@@ -1,0 +1,16 @@
+.horaatual{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: rgb(218, 208, 21);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

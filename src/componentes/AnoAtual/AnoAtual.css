@@ -1,0 +1,6 @@
+.anoatual{
+    display: flex;
+    justify-content: right;
+    background-color: rgba(255, 0, 0, 0.977);
+    color: rgb(214, 235, 28);
+}

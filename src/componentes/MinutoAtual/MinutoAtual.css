@@ -1,0 +1,15 @@
+.minutoatual{
+    display: flex;
+    justify-content: center;
+    background-color: darkmagenta;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

@@ -1,0 +1,6 @@
+.mesatual{
+    display: flex;
+    justify-content: left;
+    background-color: chartreuse;
+    color: aliceblue;
+}
