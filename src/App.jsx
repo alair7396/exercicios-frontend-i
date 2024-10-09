@@ -10,6 +10,7 @@ import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
 import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
 import VerificarIdade from './componentes/VerificarIdade/VerificarIdade';
 import NumerosPares from './componentes/NumerosPares/NumerosPares';
+import NumerosImpares from './componentes/NumerosImpares/NumerosImpares';
 
 
 
@@ -101,7 +102,7 @@ function App() {
         Chame o componente duas vezes, uma para maior de idade e outra para menor de
         idade.
       </samp>
-      <VerificarIdade idade={15} />
+      <VerificarIdade idade={[15]} />
       <hr />
       <samp>
         11.Crie um componente chamado 'NumerosPares' que aceita uma prop chamada
@@ -109,15 +110,18 @@ function App() {
         O componente deve mostrar uma lista com os números pares em uma ul com o
         fundo azul e a letra amarela.
       </samp>
-      <NumerosPares numeros={ <ul>
-        <li>2</li>
-        <li>4</li>
-        <li>6</li>
-      </ul>  }/>
-        
-    
+      <NumerosPares numeros={[2,4,6]}/>
+      <hr />
+      <samp>
+        12.Crie um componente chamado 'NumerosImpares' que aceita uma prop chamada
+        'numeros' e deve ser uma lista de números inteiros.
+        O componente deve mostrar uma lista com os números ímpares em uma ul
+        com o fundo azul e a letra amarela.
+      </samp>
+      <NumerosImpares numerosimpar={[1,3,5]}/>
+
     </>
-  );
-}
+  )
+};
 
 export default App;
